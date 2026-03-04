@@ -233,14 +233,14 @@ export function getTopComplaints(): TopComplaintData[] {
 export function getStatusByBoundary(dimension: 'ward' | 'department'): StatusByBoundary[] {
   // Fixed data for consistency
   const wardData = [
-    { boundary: 'Westlands', open: 35, assigned: 58, rejected: 12, reassignRequested: 8, reassigned: 5, reopened: 22, resolved: 265, closed: 485, total: 890 },
-    { boundary: 'Kilimani', open: 28, assigned: 48, rejected: 10, reassignRequested: 7, reassigned: 4, reopened: 18, resolved: 220, closed: 405, total: 740 },
-    { boundary: 'Parklands', open: 32, assigned: 52, rejected: 11, reassignRequested: 7, reassigned: 5, reopened: 20, resolved: 238, closed: 435, total: 800 },
-    { boundary: 'Eastleigh', open: 30, assigned: 50, rejected: 11, reassignRequested: 7, reassigned: 4, reopened: 19, resolved: 225, closed: 414, total: 760 },
-    { boundary: 'Kasarani', open: 38, assigned: 62, rejected: 14, reassignRequested: 9, reassigned: 6, reopened: 24, resolved: 282, closed: 515, total: 950 },
-    { boundary: 'Embakasi', open: 40, assigned: 65, rejected: 14, reassignRequested: 9, reassigned: 6, reopened: 25, resolved: 295, closed: 546, total: 1000 },
-    { boundary: 'Lang\'ata', open: 22, assigned: 38, rejected: 8, reassignRequested: 5, reassigned: 3, reopened: 14, resolved: 168, closed: 312, total: 570 },
-    { boundary: 'Dagoretti', open: 25, assigned: 42, rejected: 9, reassignRequested: 6, reassigned: 4, reopened: 16, resolved: 190, closed: 348, total: 640 },
+    { boundary: 'Koramangala', open: 40, assigned: 65, rejected: 14, reassignRequested: 9, reassigned: 6, reopened: 25, resolved: 295, closed: 546, total: 1000 },
+    { boundary: 'Whitefield', open: 38, assigned: 62, rejected: 14, reassignRequested: 9, reassigned: 6, reopened: 24, resolved: 282, closed: 515, total: 950 },
+    { boundary: 'Indiranagar', open: 35, assigned: 58, rejected: 12, reassignRequested: 8, reassigned: 5, reopened: 22, resolved: 265, closed: 485, total: 890 },
+    { boundary: 'Jayanagar', open: 32, assigned: 52, rejected: 11, reassignRequested: 7, reassigned: 5, reopened: 20, resolved: 238, closed: 435, total: 800 },
+    { boundary: 'Malleshwaram', open: 30, assigned: 50, rejected: 11, reassignRequested: 7, reassigned: 4, reopened: 19, resolved: 225, closed: 414, total: 760 },
+    { boundary: 'HSR Layout', open: 28, assigned: 48, rejected: 10, reassignRequested: 7, reassigned: 4, reopened: 18, resolved: 220, closed: 405, total: 740 },
+    { boundary: 'Marathahalli', open: 25, assigned: 42, rejected: 9, reassignRequested: 6, reassigned: 4, reopened: 16, resolved: 190, closed: 348, total: 640 },
+    { boundary: 'Electronic City', open: 22, assigned: 38, rejected: 8, reassignRequested: 5, reassigned: 3, reopened: 14, resolved: 168, closed: 312, total: 570 },
   ];
   
   const deptData = [
