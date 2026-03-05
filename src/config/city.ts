@@ -11,7 +11,8 @@ export const CITY = {
   authorityName: 'Bruhat Bengaluru Mahanagara Palike',
 
   /** Citizen-facing portal title */
-  portalCitizenTitle: 'Citizen Service Portal',
+  portalCitizenTitle: 'Citizen Engagement Portal',
+  portalCitizenTitleKn: 'ನಾಗರಿಕ ಭಾಗವಹಿಸುವಿಕೆ ಪೋರ್ಟಲ್',
 
   /** Staff/resolver portal title */
   portalStaffTitle: 'Resolver Dashboard',

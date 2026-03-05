@@ -101,6 +101,9 @@ export function AppLayout({ children }: AppLayoutProps) {
                 <p className="text-[11px] md:text-xs text-muted-foreground font-medium">
                   {CITY.portalCitizenTitle}
                 </p>
+                <p className="text-[10px] md:text-[11px] text-muted-foreground/80 font-medium leading-tight">
+                  {CITY.portalCitizenTitleKn}
+                </p>
               </div>
             </NavLink>
             <div className="flex items-center gap-1">
@@ -267,6 +270,7 @@ export function AppLayout({ children }: AppLayoutProps) {
                 <div>
                   <p className="font-bold font-display">{CITY.authorityName}</p>
                   <p className="text-xs opacity-70">{CITY.portalCitizenTitle}</p>
+                  <p className="text-[10px] opacity-60">{CITY.portalCitizenTitleKn}</p>
                 </div>
               </div>
             </div>
